@@ -26,15 +26,15 @@ for(i=0; i<9; i++){
         })
     })
 }
-for(i=0; i<9; i++){
-    buttons.forEach(function (el) {
-        var audio = document.querySelectorAll("audio")[i]
-        el.addEventListener("touchstart", function () {
-            if (audio.dataset.key == el.dataset.key) {
-                audio.currentTime = 0
-                audio.play()
-                el.classList.add("playing")
-            }
-        })
-    })
-}
+// for(i=0; i<9; i++){
+//     buttons.forEach(function (el) {
+//         var audio = document.querySelectorAll("audio")[i]
+//         el.addEventListener("touchstart", function () {
+//             if (audio.dataset.key == el.dataset.key) {
+//                 audio.currentTime = 0
+//                 audio.play()
+//                 el.classList.add("playing")
+//             }
+//         })
+//     })
+// }
